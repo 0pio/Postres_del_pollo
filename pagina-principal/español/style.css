@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/*esta es la parte de las variables**/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Ysabeau", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.896);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  box-shadow: 2px 4px 15px 5px rgba(65, 65, 65, 0.777);
+  font-family: "Ysabeau", sans-serif;
+}
+.header .left-section {
+  width: 350px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.header .left-section .logo {
+  display: flex;
+  width: 250px;
+  transition: opacity 0.2s ease-in-out;
+}
+.header .left-section .logo:hover {
+  opacity: 0.8;
+}
+.header .left-section .logo .titulos {
+  margin-left: 17px;
+}
+.header .middle-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  align-items: center;
+}
+.header .middle-section .nav-muffins {
+  margin-right: 60px;
+  position: relative;
+  display: flex;
+  cursor: default;
+}
+.header .middle-section .nav-muffins:hover .hover-muffins {
+  opacity: 1;
+}
+.header .middle-section .nav-muffins .hover-muffins {
+  position: absolute;
+  top: 33px;
+  left: -35px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.993);
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.33);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 130px;
+  width: 120px;
+}
+.header .middle-section .nav-muffins .hover-muffins img {
+  height: 25px;
+  margin-right: 7px;
+}
+.header .middle-section .nav-muffins .hover-muffins .boton-muffin-platano {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .middle-section .nav-muffins .hover-muffins .boton-muffin-chocolate {
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .middle-section .nav-muffins .hover-muffins .boton-muffin-limon {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .middle-section .nav-merengues {
+  margin-right: 60px;
+  position: relative;
+  display: flex;
+  cursor: default;
+}
+.header .middle-section .nav-merengues:hover .hover-merengues {
+  opacity: 1;
+}
+.header .middle-section .nav-merengues .hover-merengues {
+  position: absolute;
+  top: 33px;
+  left: -20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.993);
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.33);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 130px;
+  width: 120px;
+}
+.header .middle-section .nav-merengues .hover-merengues img {
+  height: 25px;
+  margin-right: 7px;
+}
+.header .middle-section .nav-merengues .hover-merengues .boton-merengue-chocolate {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .middle-section .nav-merengues .hover-merengues .boton-merengue-limon {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .middle-section .nav-merengues .hover-merengues .boton-merengue-fresa {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .middle-section .nav-galletas {
+  margin-right: 60px;
+  position: relative;
+  display: flex;
+  cursor: default;
+}
+.header .middle-section .nav-galletas:hover .hover-galletas {
+  opacity: 1;
+}
+.header .middle-section .nav-galletas .hover-galletas {
+  position: absolute;
+  top: 33px;
+  left: -25px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.993);
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.33);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 130px;
+  width: 120px;
+}
+.header .middle-section .nav-galletas .hover-galletas img {
+  height: 25px;
+  margin-right: 7px;
+}
+.header .middle-section .nav-galletas .hover-galletas .boton-galleta-chocolate {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .middle-section .nav-galletas .hover-galletas .boton-galleta-vainilla {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .middle-section .nav-galletas .hover-galletas .boton-galleta-chispas {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .right-section {
+  width: 350px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .right-section .carrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header .right-section .carrito img {
+  height: 30px;
+}
+.header .right-section .carrito a {
+  margin-left: 7px;
+  text-decoration: none;
+  color: black;
+}
+.header .right-section .idiomas {
+  margin-left: 40px;
+  font-size: 25px;
+  font-weight: 300;
+  height: 100%;
+}
+.header .right-section .idiomas .boton-idioma {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.header .right-section .idiomas .boton-idioma a {
+  text-decoration: none;
+  color: black;
+}
+.header .right-section .idiomas #español {
+  box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.3);
+  background-color: rgba(133, 133, 133, 0.285);
+}/*# sourceMappingURL=style.css.map */
