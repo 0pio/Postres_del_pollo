@@ -1,0 +1,319 @@
+$fuente-nav: 'Ysabeau', sans-serif;
+$primer-color: #807B00;
+$segundo-color: #FFF94D;
+$tercer-color: #FFF700;
+$cuarto-color: #807D26;
+$quinto-color: #CCC500;
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.896);
+    position: fixed ;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width:2px ;
+    border-bottom-color:black ;
+    border-bottom-style:solid ;   
+    box-shadow: 2px 4px 15px 5px rgba(65, 65, 65, 0.777);
+    font-family: $fuente-nav;
+
+    .left-section{
+        width: 350px;
+        margin-left: 30px;
+        cursor: pointer;
+
+        .logo{
+            display: flex;
+            width: 250px;
+            transition: opacity 0.2s ease-in-out;
+                      
+            &:hover{
+                opacity: 0.8;
+            }
+             
+            .titulos{
+                margin-left: 17px;
+            }
+        }
+    }
+
+    .middle-section{
+        display: flex;
+        justify-content: space-evenly;
+        flex: 1;
+        align-items: center;
+
+        .nav-muffins{
+            margin-right: 60px;
+            position: relative;
+            display: flex;
+            cursor: default;
+
+            &:hover{
+                .hover-muffins{
+                    opacity: 1;
+                }
+            }
+        
+            .hover-muffins{
+                position: absolute;
+                top: 33px;
+                left: -35px;
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+                background-color: rgba(255, 255, 255, 0.993);
+                box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 33%) ;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: start;
+                height: 130px;
+                width: 120px;
+
+                img{
+                    height: 25px;
+                    margin-right: 7px;
+                }
+
+                .boton-muffin-platano{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .boton-muffin-chocolate{
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .boton-muffin-limon{
+                    margin-bottom: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .nav-merengues{
+            margin-right: 60px;
+            position: relative;
+            display: flex;
+            cursor: default;
+
+            &:hover{
+                .hover-merengues{
+                    opacity: 1;
+                }
+            }
+        
+            .hover-merengues{
+                position: absolute;
+                top: 33px;
+                left: -20px;
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+                background-color: rgba(255, 255, 255, 0.993);
+                box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 33%) ;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: start;
+                height: 130px;
+                width: 120px;  
+
+                img{
+                    height: 25px;
+                    margin-right: 7px;
+                }
+
+                .boton-merengue-chocolate{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .boton-merengue-limon{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .boton-merengue-fresa{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .nav-galletas{
+            margin-right: 60px;
+            position: relative;
+            display: flex;
+            cursor: default;
+
+            &:hover{
+                .hover-galletas{
+                    opacity: 1;
+                }
+            }
+
+            .hover-galletas{
+                position: absolute;
+                top: 33px;
+                left: -25px;
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+                background-color: rgba(255, 255, 255, 0.993);
+                box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 33%) ;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: start;
+                height: 130px;
+                width: 120px;
+
+                img{
+                    height: 25px;
+                    margin-right: 7px;
+                }
+
+                .boton-galleta-chocolate{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .boton-galleta-naranja{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;  
+                    border: none;
+                    cursor: pointer;
+
+                    img{
+                        height: 17px;
+                    }
+                }
+
+                .boton-galleta-chispas{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .right-section{
+        width: 350px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+
+        .carrito{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+
+            img{
+                height: 30px;
+                
+            }
+    
+            a{
+                margin-left: 7px;
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        .idiomas{
+            margin-left: 40px;  
+            font-size: 25px;
+            font-weight: 300;
+            height: 100%;
+
+            .boton-idioma{
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                margin-right: 7px;
+                margin-left: 7px;
+                
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            #español{
+                box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.3);
+                background-color: rgba(133, 133, 133, 0.285);
+            }
+        }
+    }
+}

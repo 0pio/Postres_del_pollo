@@ -1,0 +1,65 @@
+/*esta es la parte de las variables**/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Ysabeau", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 70px;
+  pointer-events: none;
+  cursor: default;
+  height: 100%;
+}
+.galeria .precios {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 37px;
+}
+.galeria .precios p {
+  margin: 5px;
+}
+.galeria .galeria-muffin {
+  text-align: center;
+}
+.galeria .galeria-muffin img {
+  height: 300px;
+}
+.galeria .galeria-pollo {
+  text-align: right;
+}
+.galeria .galeria-pollo img {
+  height: 300px;
+  transform: rotate(280deg);
+}
+.galeria .galeria-ingredientes {
+  text-align: center;
+}
+.galeria .galeria-ingredientes .img {
+  height: 100px;
+  margin-top: -50px;
+}
+.galeria .galeria-info {
+  font-size: 20px;
+  margin: 40px;
+}
+.galeria .galeria-grande img {
+  height: 250px;
+}/*# sourceMappingURL=style.css.map */
