@@ -5,6 +5,22 @@ $tercer-color: #FFF700;
 $cuarto-color: #807D26;
 $quinto-color: #CCC500;
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+body{
+    background-color: #ffffff;
+    font-family: $fuente-nav;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
