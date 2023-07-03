@@ -1,1 +1,46 @@
-/*# sourceMappingURL=no-disponible.css.map */
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 50px;
+  place-items: center;
+  cursor: default;
+  pointer-events: none;
+}
+.galeria .mitad1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.galeria .mitad1 .wafles {
+  margin-top: 50px;
+  margin-left: 5em;
+}
+.galeria .mitad1 .wafles img {
+  height: 250px;
+}
+.galeria .mitad1 .texto {
+  margin-top: 30px;
+  display: grid;
+  text-align: center;
+  gap: 0px;
+}
+.galeria .mitad1 .texto p {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.galeria .mitad1 .texto #texto {
+  margin-top: 70px;
+  font-size: 30px;
+  font-weight: 100;
+}
+.galeria .mitad2 {
+  margin-top: 50px;
+}
+.galeria .mitad2 img {
+  height: 500px;
+}/*# sourceMappingURL=no-disponible.css.map */

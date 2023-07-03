@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 50px;
+    place-items: center;
+    cursor: default;
+    pointer-events: none;
+
+    .mitad1{
+        display: grid ;
+        grid-template-rows: 1fr 1fr;
+
+        .wafles{
+            margin-top: 50px;
+            margin-left: 5em;
+            
+            img{
+                height: 250px;
+            }
+        }
+
+        .texto{
+            margin-top: 30px;
+            display: grid;
+            text-align: center;
+            gap: 0px;
+            
+            p{
+                font-size: 20px;
+                margin-top: 0;
+                margin-bottom: 0;
+                font-weight: 400;
+            }
+        
+            #texto{
+                margin-top: 70px;
+                font-size: 30px;
+                font-weight: 100;
+            }
+        }
+    }
+
+    .mitad2{
+        margin-top: 50px;
+
+
+        img{
+            height:500px;
+            
+        }
+    }
+}

@@ -19,6 +19,7 @@ body{
     color: #333;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .header{
@@ -287,7 +288,7 @@ body{
         align-items: center;
         
 
-        .carrito{
+        .info{
             display: flex;
             flex-direction: row;
             justify-content: center;
