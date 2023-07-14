@@ -1,0 +1,61 @@
+body{
+    height: 100%;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 70px;  
+    cursor: default;
+    pointer-events: none;
+
+    .bici{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        img{
+            height: 300px;
+        }
+
+    }
+
+    .transporte{
+        margin-right: 40px;
+        margin-left: 40px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+
+        p{
+            font-size: 20px;
+        }
+
+    }
+
+    .yo{
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 40px;
+        text-align: center;
+
+
+        p{
+            font-size: 20px;
+        }
+
+    }
+
+    .pollo{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        img{
+            height: 400px;
+            margin-top: 10px;
+        }
+    }
+}

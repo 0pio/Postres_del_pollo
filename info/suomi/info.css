@@ -1,1 +1,49 @@
-/*# sourceMappingURL=info.css.map */
+body {
+  height: 100%;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 70px;
+  cursor: default;
+  pointer-events: none;
+}
+.galeria .bici {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galeria .bici img {
+  height: 300px;
+}
+.galeria .transporte {
+  margin-right: 40px;
+  margin-left: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.galeria .transporte p {
+  font-size: 20px;
+}
+.galeria .yo {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+.galeria .yo p {
+  font-size: 20px;
+}
+.galeria .pollo {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.galeria .pollo img {
+  height: 400px;
+  margin-top: 10px;
+}/*# sourceMappingURL=info.css.map */

@@ -241,8 +241,8 @@ body {
   cursor: pointer;
 }
 .header .right-section {
-  width: 350px;
-  margin-left: 100px;
+  width: 450px;
+  margin-left: 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
